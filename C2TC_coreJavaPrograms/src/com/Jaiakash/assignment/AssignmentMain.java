@@ -10,8 +10,8 @@ import com.Jaiakash.assignment.utilities.EmployeeUtilities;
  */
 public class AssignmentMain {
     public static void main(String[] args) {
-        Manager mgr = new Manager("Alice", 101, 50000, 5);
-        Developer dev = new Developer("Bob", 102, 45000, "Java");
+        Manager mgr = new Manager("Jai", 101, 50000, 5);
+        Developer dev = new Developer("Yash", 102, 45000, "Java");
 
         System.out.println("Manager Details:");
         EmployeeUtilities.printEmployeeDetails(mgr);

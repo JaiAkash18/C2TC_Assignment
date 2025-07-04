@@ -7,20 +7,20 @@ public class Employee {
 	 * Represents a generic employee.
 	 */
 	
-	    private String name;
+	    private String names;
 	    private int employeeId;
 	    private double salary;
 
 	    // Constructor
 	    public Employee(String name, int employeeId, double salary) {
-	        this.name = name;
+	        this.names = name;
 	        this.employeeId = employeeId;
 	        this.salary = salary;
 	    }
 
 	    // Getters and Setters
-	    public String getName() { return name; }
-	    public void setName(String name) { this.name = name; }
+	    public String getName() { return names; }
+	    public void setName(String name) { this.names = name; }
 
 	    public int getEmployeeId() { return employeeId; }
 	    public void setEmployeeId(int employeeId) { this.employeeId = employeeId; }

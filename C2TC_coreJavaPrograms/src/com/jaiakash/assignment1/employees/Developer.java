@@ -13,7 +13,7 @@ package com.jaiakash.assignment1.employees;
 	    }
 
 	    public String getrole() { return role; }
-	    public void setrole(String programmingLanguage) { this.role = role; }
+	    public void setrole(String role) { this.role = role; }
 	}
 
 

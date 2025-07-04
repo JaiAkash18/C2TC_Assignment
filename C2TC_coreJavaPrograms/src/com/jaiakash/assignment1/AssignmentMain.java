@@ -12,16 +12,16 @@ public class AssignmentMain {
 		 * Main class to demonstrate employee operations.
 		 */
 		
-		        Manager mgr = new Manager("Alice", 101, 50000, 5);
+		        Manager mgr = new Manager("Jai", 101, 50000, 5);
 		        Developer dev = new Developer("Bob", 102, 45000, "Java");
 
 		        System.out.println("Manager Details:");
-		        EmployeeUtilities.printEmployeeDetails(mgr);
+		        EmployeeUtilities.printshowDetails(mgr);
 		        System.out.println("Team Size: " + mgr.getTeamSize());
 		        System.out.println("Annual Salary: " + EmployeeUtilities.calculateAnnualSalary(mgr));
 
 		        System.out.println("\nDeveloper Details:");
-		        EmployeeUtilities.printEmployeeDetails(dev);
+		        EmployeeUtilities.printshowDetails(dev);
 		        System.out.println("Role: " + dev.getrole());
 		        System.out.println("Annual Salary: " + EmployeeUtilities.calculateAnnualSalary(dev));
 		    }

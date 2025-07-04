@@ -9,7 +9,7 @@ package com.jaiakash.assignment1.utilities;
 	 */
 	public class EmployeeUtilities {
 
-	    public static void printEmployeeDetails(Employee emp) {
+	    public static void printshowDetails(Employee emp) {
 	        System.out.println("Name: " + emp.getName());
 	        System.out.println("Employee ID: " + emp.getEmployeeId());
 	        System.out.println("Salary: " + emp.getSalary());
